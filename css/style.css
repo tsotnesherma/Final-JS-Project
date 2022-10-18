@@ -1,0 +1,328 @@
+/* Fonts */
+
+/* End of Fonts */
+
+
+
+/* Global Settings */
+img{
+     width: 100%; 
+     object-fit: cover;
+    opacity: transparent;
+}
+/* section{
+    padding-left: 77px;
+    padding-right: 77px;
+    padding-top: 77px;
+     
+} */
+a{
+    font-weight: 700;
+    transition: all 0.4s ease;
+    text-decoration: none;
+
+    
+}
+
+/* End of Global Settings */
+
+
+/* Styles for Navbar */
+
+.fa-plane-up {
+  
+  display: inline-block;
+  border-radius:50%;
+  box-shadow: 0 0 2px rgb(0, 0, 0);
+  padding: 0.7em 0.8em;
+  background: rgb(255, 115, 1);
+  color: rgb(255, 255, 255);
+  height: 50px;
+  width: 50px;
+  
+}
+.logo{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.dot{
+    color: rgb(255, 115, 1);
+    font-size: 25px;
+}
+
+.rounded-button{
+ 
+    background: orange;
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.login-form a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-decoration: none;
+    color: orange;
+}
+.navbar-nav, .nav-item, ul li a{
+gap: 5px;
+
+
+}
+.wrapper{
+   
+
+   margin-left: 50px;
+    
+  }
+  
+  .searchbox{
+    position: relative;
+  }
+  
+  .searchbox .input{
+    width: 0px;
+    border: 0px;
+    height: 40px;
+    padding: 5px 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 15px 1px #b6bbc0;
+    outline: none;
+    font-weight: bold;
+    font-size: 15px;
+    transition: all 0.5s linear;
+  }
+  
+  .searchbtn{
+    position: absolute;
+    top: 0;
+    right: -1px;
+    background: rgb(251, 113, 0);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.5s 0.6s linear;
+  }
+  
+  .searchbtn .fas{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #ffffff;
+    font-size: 15px;
+    transition: all 0.5s 0.6s linear;
+  }
+  
+  /* jquery class */
+  .searchbtn.bg-green{
+    background: rgb(251, 113, 0);
+    transition: all 0.2s linear;
+  }
+  
+  .searchbtn .fas.color-white{
+    color: #fff;
+    transition: all 0.2s linear;
+  }
+  
+  .searchbox .input.active-width{
+    width: 200px;
+  }
+  /* End of Styling Navbar */
+
+/* Styles of Home Section */
+.carousel-control-prev-icon, .carousel-control-prev{
+  display: none;
+  opacity: 0;
+    filter:alpha(opacity=0);
+}
+.carousel-control-next, .carousel-control-next-icon{
+  display: none;
+  opacity: 0;
+    filter:alpha(opacity=0);
+}
+.home-img{
+  height: 500px;
+ 
+  object-fit: cover;
+  border-radius: 1%;
+}
+#home{
+  background: url(../media/background-home.jpg);
+  height: 900px;
+  padding-left: 77px;
+  padding-right: 77px;
+}
+
+.book-form {
+  width: 100%;
+  margin: 1rem auto;
+  margin-top: 5rem;
+  background: rgb(0, 0, 0);
+  border-radius: 1rem;
+
+  padding: 3rem 2rem;
+}
+
+.book-form form{
+ display: flex; 
+ 
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ gap: 1rem; 
+ 
+}
+
+
+
+.book-form form .inputBox span {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  
+  
+}
+
+.book-form form .inputBox input {
+ 
+
+  border: 2px solid #ffffff;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  text-transform: none;
+  background: rgb(0, 0, 0);
+  margin-top: 1rem;
+  height: 45px;
+  text-align: center;
+  
+
+}
+
+/* End of Styling Home Section */
+
+/* Styles of Explore Section */
+
+#explore{
+  padding-left: 77px;
+  padding-right: 77px;
+  padding-top: 77px;
+  
+}
+.tourist{
+  
+  height: 500px;
+}
+.intro-text{
+  padding-top: 100px;
+  word-spacing: 1px;
+  line-height: 2;
+}
+.intro-text h5{
+  color: orange;
+  font-size: 18px;
+}
+.intro-text h1{
+  font-size: 38px;
+}
+.intro-text p{
+  color: grey;
+}
+.icons{
+display: flex;
+justify-content: space-around;
+text-align: center;
+font-size: 35px;
+color: darkorange;
+flex-wrap: wrap;
+
+cursor: pointer;
+ }
+ .icons :hover{
+  color: black;
+  
+
+ }
+.icons p{
+  font-size: 18px;
+
+}
+
+
+/* End of Styling Explore Section */
+
+
+/* Styles of Sponsors */
+.sponsor-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+
+  padding-top: 50px;
+}
+.sponsor-div img{
+  height: 90px;
+  width: 90px;
+cursor: pointer;
+
+}
+/* End of Styling Sponsors */
+
+/* Styles of Exotic Places */
+#exotic-places{
+  background: url(../media/background-1.jpg);
+  height: 900px;
+  padding-left: 77px;
+  padding-right: 77px;
+  padding-top: 77px;
+  margin-top: 77px;
+  
+  
+}
+
+
+
+
+/* End of Styling Exotic Places */
+
+/* Media Queries */
+@media(max-width: 991px){
+    .wrapper{
+        display: none;
+      
+    }
+}
+@media(max-width: 991px){
+    .fa-plane-up{
+        display: none;
+    }
+}
+
+@media(max-width: 450px){
+  .icons{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media(max-width: 576px){
+  .sponsor-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+}
+@media(max-width: 768px){
+  .sponsor-div{
+    gap: 35px
+    ;
+  }
+}
